@@ -1,0 +1,14 @@
+.navButton:hover {
+  background-color: #afafaf;
+}
+.navButton {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #cacaca;
+}
