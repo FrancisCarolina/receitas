@@ -10,13 +10,13 @@
     />
     <title>RECEITAS</title>
   </head>
-  <body style="padding: 0; margin: 0">
+  <body>
     <nav>
-      <section style="display: flex; align-items: center; padding: 10px">
+      <section class="logo">
         <img src="cozinheiro.png" alt="logo" style="width: 30px" />
         <span>Receitas</span>
       </section>
-      <section style="display: flex; flex-direction: row; align-items: center">
+      <section class="navItems">
         <section class="navButton">
           <i class="fa fa-plus"></i>
           <span>Mais Receitas</span>
@@ -27,21 +27,12 @@
         </section>
       </section>
     </nav>
-    <main style="display: flex; justify-content: center; width: 100%">
-      <section
-        style="
-          border: 1px solid #cacaca;
-          border-radius: 4px;
-          width: max-content;
-          margin-top: 25px;
-          display: flex;
-          flex-direction: row;
-        "
-      >
+    <main>
+      <section class="receitaContainer">
         <figure>
-          <img src="pao.png" alt="bolo" style="width: 400px" />
+          <img src="pao.png" alt="bolo" class="receitaImg" />
         </figure>
-        <div style="width: 500px; padding-right: 20px">
+        <div class="receitaDescricao">
           <h2>Pão com margarina na figideira</h2>
           <h3>Igredientes</h3>
           <ul>
@@ -66,5 +57,8 @@
         </div>
       </section>
     </main>
+    <footer>
+        todos os direitos reservados.
+    </footer>
   </body>
 </html>

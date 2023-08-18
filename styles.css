@@ -1,3 +1,16 @@
+body{
+  padding: 0; margin: 0;
+}
+.logo{
+  display: flex; 
+  align-items: center; 
+  padding: 10px;
+}
+.navItems{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center
+}
 .navButton:hover {
   background-color: #afafaf;
 }
@@ -11,4 +24,33 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   background-color: #cacaca;
+}
+main{
+  display: flex; 
+  justify-content: center; 
+  width: 100%; 
+  height: 92vh
+}
+.receitaContainer{
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  width: max-content;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;height: max-content;
+}
+.receitaDescricao{
+  width: 500px; 
+  padding-right: 20px
+}
+.receitaImg{
+  width: 400px
+}
+footer{
+  background: #cacaca; 
+  width:100%; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  display: flex; 
+  justify-content: center;
 }
